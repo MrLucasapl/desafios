@@ -58,14 +58,16 @@ const AnagramChecker = () => {
             onChange={(e) => setString2(e.target.value)}
           />
         </label>
-        <button className="button-check" onClick={handleCheck}>verificar</button>
+        <button className="button-check" onClick={handleCheck}>
+          verificar
+        </button>
         <div className="box-result">
           {result && <p>As duas strings são anagramas O(n)!</p>}
           {!result && <p>As duas strings não são anagramas.</p>}
         </div>
       </div>
 
-      <Button toGoBackProps='/' nextProps='/fibonacci'/>
+      <Button toGoBackProps="/" nextProps="/fibonacci" />
     </AnagramCheckerStyle>
   );
 };

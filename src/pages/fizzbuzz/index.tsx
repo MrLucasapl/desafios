@@ -41,7 +41,7 @@ const Home = () => {
         </table>
       </div>
 
-      <Button toGoBackProps='/' nextProps='/anagrama'/>
+      <Button toGoBackProps="/verificaPalindromo" nextProps="/anagrama" />
     </HomeStyle>
   );
 };

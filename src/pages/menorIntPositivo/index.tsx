@@ -56,7 +56,7 @@ const MinorPositive = () => {
         <div className="box-result">{result}</div>
       </div>
 
-      <Button toGoBackProps="/fibonacci" nextProps="/sdfasdfasfa" />
+      <Button toGoBackProps="/fibonacci" nextProps="/gray" />
     </AnagramCheckerStyle>
   );
 };

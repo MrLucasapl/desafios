@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AnagramCheckerStyle = styled.section`
+export const CheckPalindromeStyle = styled.section`
   width: 100%;
   height: 80%;
   display: flex;
@@ -54,5 +54,12 @@ export const AnagramCheckerStyle = styled.section`
 
   .box-result {
     margin: 20px 0px;
+  }
+
+  .box-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 `;
