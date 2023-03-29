@@ -23,6 +23,11 @@ const Home = () => {
   return (
     <HomeStyle>
       <div className="box-challenges">
+        <p>
+          1- Escreva uma função que escreva os números de 1 a 100, mas trocando
+          os múltiplos de 3 por “Fizz”, os múltiplos de 5 por “Buzz” e os
+          múltiplos de 3 e 5 por “FizzBuzz”
+        </p>
         <table>
           <thead>
             <tr>

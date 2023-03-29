@@ -60,6 +60,11 @@ const CheckPalindrome = () => {
   return (
     <CheckPalindromeStyle>
       <div className="box-challenges">
+        <p>
+          8- Escreva uma função que receba a referência ao nó raiz de uma lista
+          ligada e devolva um booleano indicando se a palavra formada pelos
+          valores da lista ligada é um palíndromo ou não.
+        </p>
         <label className="box-input">
           Lista ligada:
           <input

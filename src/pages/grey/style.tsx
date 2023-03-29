@@ -8,6 +8,9 @@ export const GrayStyle = styled.section`
   flex-direction: column;
   justify-content: center;
 
+  p {
+    text-align: center;
+  }
   .box-challenges {
     width: 80%;
     height: 100%;

@@ -43,6 +43,11 @@ const MajorPrefix = () => {
   return (
     <MajorPrefixStyle>
       <div className="box-challenges">
+        <p>
+          6- Escreva uma função que receba um array de strings e retorne uma
+          string correspondente ao maior prefixo em comum entre essas strings,
+          caso não tenha retorne uma string vazia
+        </p>
         <label className="box-input">
           Valor do Arrey:
           <input

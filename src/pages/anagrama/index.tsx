@@ -28,7 +28,7 @@ const isAnagram = (string1: string, string2: string): boolean => {
   }
 
   return true;
-}
+};
 
 const AnagramChecker = () => {
   const [string1, setString1] = useState("");
@@ -42,6 +42,12 @@ const AnagramChecker = () => {
   return (
     <AnagramCheckerStyle>
       <div className="box-challenges">
+        <p>
+          2- Escreva uma função que receba duas strings e retorne um booleano
+          que indique se as duas palavras são anagramas ou não. Ex.: autor e
+          outra são anagramas, mas autor e outro não. Qual a complexidade de
+          tempo e memória da sua solução utilizando a notação Big O
+        </p>
         <label className="box-input">
           String 1:
           <input

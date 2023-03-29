@@ -8,6 +8,10 @@ export const HomeStyle = styled.section`
   flex-direction: column;
   justify-content: center;
 
+  p{
+    text-align: center;
+  }
+
   .box-challenges {
     width: 80%;
     height: 100%;
@@ -15,6 +19,7 @@ export const HomeStyle = styled.section`
     overflow: auto;
     border-radius: 15px;
     align-content: center;
+    flex-direction: column;
     justify-content: center;
     background-color: rgb(255, 255, 255);
   }
@@ -25,6 +30,7 @@ export const HomeStyle = styled.section`
 
   table{
     width: 90%;
+    height: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;

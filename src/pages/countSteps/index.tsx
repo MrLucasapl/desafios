@@ -26,6 +26,12 @@ const CountSteps = () => {
   return (
     <CountStepsStyle>
       <div className="box-challenges">
+        <p>
+          7- Escreva uma função que receba um número inteiro e retorne quantos
+          passos são necessários para reduzi-lo a 0, onde um passo é dividir o
+          número por dois quando o número for par e subtrair 1 quando o número
+          for ímpar.
+        </p>
         <label className="box-input">
           Numero:
           <input

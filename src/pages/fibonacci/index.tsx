@@ -43,6 +43,10 @@ const Fibonacci = () => {
   return (
     <FibonacciStyle>
       <div className="box-challenges">
+        <p>
+          3- Escreva uma implementação recursiva e uma iterativa da sequência de
+          Fibonacci
+        </p>
         <label className="box-input">
           Numero:
           <input
@@ -50,14 +54,14 @@ const Fibonacci = () => {
             onChange={(e) => setNumber(Number(e.target.value))}
           />
         </label>
-       <div className="box-buttons">
-       <button className="button-check" onClick={Recursive}>
-          Recursiva
-        </button>
-        <button className="button-check" onClick={Iterative}>
-          Interativa
-        </button>
-       </div>
+        <div className="box-buttons">
+          <button className="button-check" onClick={Recursive}>
+            Recursiva
+          </button>
+          <button className="button-check" onClick={Iterative}>
+            Interativa
+          </button>
+        </div>
         <div className="box-result">{result}</div>
       </div>
 

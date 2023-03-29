@@ -42,6 +42,11 @@ const MinorPositive = () => {
   return (
     <AnagramCheckerStyle>
       <div className="box-challenges">
+        <p>
+          4- Escreva uma função que recebe como input um array de números
+          inteiros (em qualquer ordem) e retorna o menor inteiro positivo que
+          não está presente nesse array.
+        </p>
         <label className="box-input">
           Valor do Arrey:
           <input

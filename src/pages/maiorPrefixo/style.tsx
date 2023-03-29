@@ -8,6 +8,10 @@ export const MajorPrefixStyle = styled.section`
   flex-direction: column;
   justify-content: center;
 
+  p {
+    text-align: center;
+  }
+
   .box-challenges {
     width: 80%;
     height: 100%;
